@@ -3,6 +3,8 @@ os: linux
 files:
   - source: target/ROOT.war
     destination: /home/ec2-user/javaapp
+  - source: /scripts/configure_http_port.xsl
+    destination: /home/ec2-user/javaapp
 hooks:
 ApplicationStop:
     - location: scripts/stop_application
