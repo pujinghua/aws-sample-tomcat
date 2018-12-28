@@ -83,7 +83,7 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>SampleMavenTomcatApp</finalName>
+    <finalName>ROOT</finalName>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
